@@ -4,8 +4,8 @@ import "./Weather.css";
 import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
-  const [ready, setReady] = useState(false);
   const [weatherData, setWeatherData] = useState({ ready: false });
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -17,8 +17,6 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
     });
-
-    setReady(true);
   }
 
   if (weatherData.ready) {
