@@ -20,6 +20,7 @@
   border-radius: 15px;
   color: rgba(33, 33, 33, 0.8);
   font-weight: bolder;
+  transition: all 150ms ease-in-out;
 }
 
 .Weather form .btn-primary:hover {

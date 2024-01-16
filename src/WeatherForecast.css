@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+.WeatherForecast .col {
+  background-color: rgba(184, 184, 184, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px 15px 10px 15px;
+  transition: all 100ms ease-in-out;
+}
+
+.WeatherForecast .col:hover {
+  background-color: rgba(184, 184, 184, 0.4);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 15px;
+}
+
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
