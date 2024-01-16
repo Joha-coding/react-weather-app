@@ -22,6 +22,15 @@
   font-weight: bolder;
 }
 
+.Weather form .btn-primary:hover {
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 60px #bebebe, inset -20px -20px 60px #ffffff;
+  border: 1px solid #dadde1;
+  border-radius: 15px;
+  color: rgba(33, 33, 33, 0.8);
+  font-weight: bolder;
+}
+
 .Weather form .form-control {
   background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow: 2px 8px 25px #666666, -11px -11px 29px #ffffff;
@@ -78,4 +87,8 @@
   position: relative;
   top: -28px;
   text-shadow: 2px 2px 5px #666666;
+}
+
+.Weather .unit a {
+  color: rgba(33, 33, 33, 0.5);
 }
